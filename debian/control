@@ -1,0 +1,56 @@
+Source: audiocd-kio
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@debian.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.8),
+ libcdparanoia-dev,
+ libflac-dev,
+ libogg-dev,
+ libvorbis-dev
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/audiocd-kio.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/audiocd-kio.git
+
+Package: kio-audiocd
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Suggests: lame
+Breaks: kdemultimedia-kio-plugins (<< 4:4.10)
+Replaces: kdemultimedia-kio-plugins (<< 4:4.10)
+Description: transparent audio CD access for applications using the KDE Platform
+ This package includes the audiocd KIO plugin, which allows applications using
+ the KDE Platform to read audio from CDs and automatically convert it into other 
+ formats.
+ .
+ This package is part of the KDE multimedia module.
+
+Package: kio-audiocd-dev
+Section: devel
+Architecture: any
+Depends: ${sameVersionDep:kdelibs5-dev:kio-audiocd},
+ ${misc:Depends}, kio-audiocd (= ${binary:Version}),
+ libkcddb-dev,
+Breaks: kdemultimedia-dev (<< 4:4.10)
+Replaces: kdemultimedia-dev (<< 4:4.10)
+Description: development files for the audio CD KIO plugin
+ This package contains development files for building plugins for the audio CD
+ KIO plugin.
+ .
+ This package is part of the KDE multimedia module.
+
+Package: kio-audiocd-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, kde-runtime-dbg
+Breaks: kdemultimedia-dbg
+Replaces: kdemultimedia-dbg
+Description: debugging symbols for the audio CD KIO plugin
+ This package contains debugging files used to investigate problems with
+ the audio CD KIO plugin.
+ .
+ This package is part of the KDE multimedia module.
