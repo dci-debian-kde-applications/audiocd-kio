@@ -35,7 +35,6 @@ Section: devel
 Architecture: any
 Depends: ${sameVersionDep:kdelibs5-dev:kio-audiocd},
  ${misc:Depends}, kio-audiocd (= ${binary:Version}),
- libkcddb-dev,
 Breaks: kdemultimedia-dev (<< 4:4.10)
 Replaces: kdemultimedia-dev (<< 4:4.10)
 Description: development files for the audio CD KIO plugin
