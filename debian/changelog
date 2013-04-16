@@ -4,6 +4,8 @@ audiocd-kio (4:4.10.2-2) UNRELEASED; urgency=low
   * Drop the libkcddb-dev dependency from kio-audiocd-dev, as it will be
     handled in a separate kdemultimedia-dev transitional package.
   * Tighten the kio-audiocd dependency in kio-audiocd-dbg.
+  * Add transitional kdemultimedia-kio-plugins and kdemultimedia-dev packages,
+    to easily migrate from previous names to the new kio-audiocd ones.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 11:48:02 +0200
 

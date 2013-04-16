@@ -43,6 +43,27 @@ Description: development files for the audio CD KIO plugin
  .
  This package is part of the KDE multimedia module.
 
+Package: kdemultimedia-kio-plugins
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: ${misc:Depends}, kio-audiocd
+Description: transitional package for kio-audiocd
+ This transitional package allows one to migrate to kio-audiocd.
+ .
+ It can be safely removed after the installation.
+
+Package: kdemultimedia-dev
+Section: oldlibs
+Priority: extra
+Architecture: all
+Depends: ${misc:Depends}, kio-audiocd-dev, libkcddb-dev, libkcompactdisc-dev
+Description: transitional package for KDE multimedia development packages
+ This transitional package allows one to migrate to kio-audiocd-dev,
+ libkcddb-dev, and libkcompactdisc-dev.
+ .
+ It can be safely removed after the installation.
+
 Package: kio-audiocd-dbg
 Section: debug
 Architecture: any
