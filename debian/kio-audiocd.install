@@ -11,6 +11,7 @@ usr/share/doc/kde/HTML/en/kioslave/audiocd/index.cache.bz2
 usr/share/doc/kde/HTML/en/kioslave/audiocd/index.docbook
 usr/share/kde4/apps/konqsidebartng/virtual_folders/services/audiocd.desktop
 usr/share/kde4/apps/solid/actions/solid_audiocd.desktop
+usr/share/kde4/config.kcfg/audiocd_flac_encoder.kcfg
 usr/share/kde4/config.kcfg/audiocd_lame_encoder.kcfg
 usr/share/kde4/config.kcfg/audiocd_vorbis_encoder.kcfg
 usr/share/kde4/services/audiocd.desktop
