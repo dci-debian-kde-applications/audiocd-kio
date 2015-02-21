@@ -1,9 +1,9 @@
-audiocd-kio (4:14.12.2-1~) UNRELEASED; urgency=medium
+audiocd-kio (4:14.12.2-1) experimental; urgency=medium
 
   * New upstream release (14.12.2).
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 20 Feb 2015 21:26:39 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 Feb 2015 11:21:39 +0100
 
 audiocd-kio (4:14.12.2-0ubuntu1) vivid; urgency=medium
 
