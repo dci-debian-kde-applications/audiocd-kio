@@ -1,9 +1,9 @@
-audiocd-kio (4:15.07.90-0ubuntu1) UNRELEASED; urgency=medium
+audiocd-kio (4:15.07.90-0ubuntu1) wily; urgency=medium
 
   * New upstream release
   * new upstream beta release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 13 Aug 2015 10:31:21 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 08:55:33 +0100
 
 audiocd-kio (4:15.04.2-0ubuntu1) wily; urgency=medium
 
