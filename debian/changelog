@@ -1,8 +1,14 @@
-audiocd-kio (4:15.12.2-1) UNRELEASED; urgency=medium
+audiocd-kio (4:15.12.2-2~1.gbpa0d28f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @a0d28f80af1c3da3e4371785bcf0574cd4e8359d **
+
+  [ Rohan Garg ]
   * New upstream release
 
- -- Rohan Garg <rohan@kde.org>  Fri, 26 Feb 2016 22:02:59 +0100
+  [ Automatic packaging ]
+  * Bump Standards-Version to 3.9.8
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 12:18:46 +0200
 
 audiocd-kio (4:14.12.2-1) experimental; urgency=medium
 
