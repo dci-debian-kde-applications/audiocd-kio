@@ -6,4 +6,4 @@ override_dh_makeshlibs:
 	$(overridden_command) -V
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kio-audiocd-dbg
+	$(overridden_command) --dbgsym-migration='kio-audiocd-dbg (<= 4:15.12.2-2~1.gbpa0d28f~)'

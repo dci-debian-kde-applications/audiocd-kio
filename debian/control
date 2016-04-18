@@ -68,16 +68,3 @@ Description: transitional package for KDE multimedia development packages
  libkcddb-dev, and libkcompactdisc-dev.
  .
  It can be safely removed after the installation.
-
-Package: kio-audiocd-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Depends: kde-runtime-dbg, kio-audiocd (= ${binary:Version}), ${misc:Depends}
-Breaks: kdemultimedia-dbg
-Replaces: kdemultimedia-dbg
-Description: debugging symbols for the audio CD KIO plugin
- This package contains debugging files used to investigate problems with
- the audio CD KIO plugin.
- .
- This package is part of the KDE multimedia module.
