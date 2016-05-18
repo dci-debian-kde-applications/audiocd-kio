@@ -1,3 +1,9 @@
+audiocd-kio (4:16.04.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 18 May 2016 18:10:46 +0200
+
 audiocd-kio (4:15.12.2-2~1.gbpa0d28f) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @a0d28f80af1c3da3e4371785bcf0574cd4e8359d **
