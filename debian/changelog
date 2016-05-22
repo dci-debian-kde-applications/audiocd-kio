@@ -1,6 +1,4 @@
-audiocd-kio (4:15.12.2-2~2.gbp469765) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @4697652d9d9db7046e1f4eb7636508b62676c719 **
+audiocd-kio (4:15.12.2-1) unstable; urgency=medium
 
   [ Rohan Garg ]
   * New upstream release
@@ -13,7 +11,7 @@ audiocd-kio (4:15.12.2-2~2.gbp469765) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Automatic update with ddeb_migration3.py
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 18 Apr 2016 08:18:14 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 May 2016 08:54:38 +0200
 
 audiocd-kio (4:14.12.2-1) experimental; urgency=medium
 
