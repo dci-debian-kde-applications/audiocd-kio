@@ -1,19 +1,14 @@
-audiocd-kio (4:15.12.2-2~1.gbpee78cb) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @ee78cb8fc8d87d5ffc44ac75d01aba3394c88530 **
+audiocd-kio (4:15.12.2-2) unstable; urgency=medium
 
   [ Automatic packaging ]
   * Bump Standards-Version to 3.9.8
-  * Update changelog for 4:15.12.2-2~1.gbpa0d28f release
-  * Update changelog for 4:15.12.2-2~2.gbp469765 release
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Automatic update with ddeb_migration3.py
-  * Update changelog for 4:15.12.2-1 release
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 22 May 2016 10:18:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Jun 2016 18:39:54 +0200
 
 audiocd-kio (4:15.12.2-1) unstable; urgency=medium
 
