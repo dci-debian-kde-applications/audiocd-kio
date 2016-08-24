@@ -1,3 +1,10 @@
+audiocd-kio (4:16.08.0-0r1) UNRELEASED; urgency=medium
+
+  [ Pino Toscano ]
+  * New upstream release.
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Aug 2016 22:31:50 +0200
+
 audiocd-kio (4:15.12.2-2) unstable; urgency=medium
 
   [ Automatic packaging ]
