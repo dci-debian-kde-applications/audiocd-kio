@@ -1,10 +1,10 @@
-audiocd-kio (4:16.08.0-0r1) UNRELEASED; urgency=medium
+audiocd-kio (4:16.08.0-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Update lintian overrides.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 24 Aug 2016 22:31:50 +0200
+ -- Pino Toscano <pino@debian.org>  Wed, 24 Aug 2016 22:35:26 +0200
 
 audiocd-kio (4:15.12.2-2) unstable; urgency=medium
 
