@@ -1,2 +1,3 @@
 usr/include/audiocdencoder.h
-usr/lib/libaudiocdplugins.so
+usr/include/audiocdplugins_export.h
+usr/lib/x86_64-linux-gnu/libaudiocdplugins.so
