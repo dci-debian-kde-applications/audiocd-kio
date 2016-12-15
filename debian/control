@@ -18,6 +18,7 @@ Build-Depends: cmake,
                libkf5kdelibs4support-dev,
                libkf5kio-dev,
                libogg-dev,
+               libphonon4qt5-dev,
                libvorbis-dev,
                pkg-kde-tools (>= 0.12)
 Standards-Version: 3.9.8
