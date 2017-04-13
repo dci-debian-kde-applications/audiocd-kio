@@ -6,4 +6,5 @@ usr/share/doc/HTML/en/kioslave5/audiocd/
 usr/share/konqsidebartng/virtual_folders/services/audiocd.desktop
 usr/share/kservices5/audiocd.desktop
 usr/share/kservices5/audiocd.protocol
+usr/share/locale/
 usr/share/solid/actions/solid_audiocd.desktop
