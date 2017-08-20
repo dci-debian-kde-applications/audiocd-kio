@@ -1,9 +1,6 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+l10npkgs_firstversion_ok := 4:17.03.90-0~
 
-override_dh_makeshlibs:
-	$(overridden_command) -V
-
-override_dh_strip:
-	$(overridden_command) --dbgsym-migration='kio-audiocd-dbg (<= 4:15.12.2-2~1.gbpa0d28f~)'
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+include /usr/share/pkg-kde-tools/qt-kde-team/2/l10n-packages.mk
