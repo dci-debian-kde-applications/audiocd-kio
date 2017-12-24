@@ -2,6 +2,10 @@ audiocd-kio (4:17.08.3-0r1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (17.08.0)
+    - switch to Qt5/KF5 (Closes: #874820), so it works in dolphin
+      (Closes: #884409)
+  * Remove the transitional packages kdemultimedia-kio-plugins and
+    kdemultimedia-dev (Closes: #878201)
 
   [ Pino Toscano ]
   * New upstream release.
