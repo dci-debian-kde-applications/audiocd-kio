@@ -31,12 +31,8 @@ Package: kio-audiocd
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: lame
-Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
-        kde-l10n-eo (<< 4:17.03.90-0~),
-        ${kde-l10n:all},
-Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
-          kde-l10n-eo (<< 4:17.03.90-0~),
-          ${kde-l10n:all},
+Breaks: ${kde-l10n:all},
+Replaces: ${kde-l10n:all},
 Description: transparent audio CD access for applications using the KDE Platform
  This package includes the audiocd KIO plugin, which allows applications using
  the KDE Platform to read audio from CDs and automatically convert it into other
